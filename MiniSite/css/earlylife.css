@@ -1,0 +1,9 @@
+div>p{
+    text-indent: 25px;
+    line-height: 20px;
+}
+
+.table{
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,10 @@
+.table{
+    float: right;
+    margin: 5px;
+    display: inline;
+}
+
+p{
+    text-indent: 25px;
+    line-height: 20px;
+}

@@ -6,9 +6,16 @@ p{
 .table{
     float: right;
     margin: 5px;
-    display:inline
+    display: inline;
 }
 
 img{
     width: 420px;
+}
+h1{
+    text-shadow: 1.5px 1.5px lightgray; 
+    color: black;
+}
+hr{
+    border-top: 4px double gray;
 }

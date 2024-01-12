@@ -1,11 +1,29 @@
-p{
-    text-indent: 25px;
-    line-height: 20px;
+table, th, td{
+    border: 2px solid #2d4a53;
 }
-h1{
-    text-shadow: 1.5px 1.5px lightgray; 
-    color: black;
+
+td{
+    padding: 10px;
+    text-align: left;
+    text-shadow: 0.3px 0.3px darkolivegreen;
 }
-hr{
-    border-top: 4px double gray;
+
+th{
+    padding: 10px;
+    text-align: center;
+    background-color: #2d4a53;
+    color: rgb(189, 216, 240);
+    text-shadow: 0.5px 0.5px darkolivegreen;
+}
+
+table{
+    margin-right: 10px;
+}
+
+tr:nth-child(even){
+    background-color: rgb(202, 209, 202);
+}
+
+tr:hover{
+    background-color: white;
 }

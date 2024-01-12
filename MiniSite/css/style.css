@@ -114,6 +114,6 @@ blockquote footer{
 .eb-garamond {
   font-family: "EB Garamond", serif;
   font-optical-sizing: auto;
-  font-weight: normal;
+  font-weight: 500;
   font-style: normal;
 }

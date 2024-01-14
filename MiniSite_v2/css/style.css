@@ -1,0 +1,119 @@
+body{
+    max-width: 1000px;
+    margin: auto;
+    align-content: center;
+    padding: 10px 10px;
+    background-color: aliceblue;
+}
+
+header{
+    color: aliceblue;
+    padding: 5px 0 5px 0;
+    background-color: #2d4a53;
+    border-bottom: 4px solid #69818d;
+    border-top: 3px solid #69818d;
+    border-left: 3px solid #69818d;
+    border-right: 3px solid #69818d;
+    border-radius: 6px;
+    text-shadow: 1.5px 1.5px gray; 
+    color: aliceblue;
+    text-align: center;
+}
+
+.top_hr{
+    border-top: 4px dotted #afb3b7;
+    width: auto;
+}
+
+aside{
+    width: 150px;
+    float: left;
+}
+
+nav {
+    color: #2d4a53;
+    border-right: 4px dotted #afb3b7;
+    text-shadow: 0.5px 0.5px gray;
+}
+
+nav a {
+    display: block;
+    padding: 30px 15px;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin: 4px 4px;
+}
+
+nav a:hover {
+    color: rgb(189, 216, 240);
+    text-shadow: 0.5px 0.5px darkolivegreen;
+    background-color: #15363d;
+    border-radius: 4px;
+    margin: 4px 4px;
+}
+
+nav a.active{
+    color: rgb(189, 216, 240);
+    text-shadow: 0.5px 0.5px darkolivegreen;
+    background-color: #15363d;
+    border-radius: 4px;
+    margin: 4px 4px;
+}
+
+.m_hr{
+    width: 120px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+main{
+    width: auto;
+    overflow: auto;
+    padding: 0 0 0 15px;
+}
+
+table{
+    float: right;
+    margin: 5px;
+    display: inline;
+}
+
+p{
+    text-indent: 25px;
+    line-height: 20px;
+}
+
+blockquote footer{
+    float: right;
+}
+
+#imgpc{
+    width: 350px;
+}
+
+.h2_top{
+    margin-top: 5px;
+}
+
+.dancing-script{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.tektur {
+  font-family: "Tektur", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.eb-garamond {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}

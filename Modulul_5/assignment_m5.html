@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program pentru efectuarea operațiilor aritmetice de bază</title>
+</head>
+<body>
+    <script>
+        let a = +prompt('Dati primul numar', 0);
+        let op = prompt('Operatia este ', '');
+        let b = +prompt('Al doilea numar este', 0);
+
+        switch (op) {
+                case "+":
+                    document.write('Suma este ', a + b);
+                    break;
+
+                case "-":
+                    document.write('Diferenta este ', a - b);
+                    break;
+
+                case "*":
+                    document.write('Rezultatul inmultirii este ', a * b);
+                    break;
+
+                case "/":
+                    document.write('Rezultatul impartirii este ', a / b);
+                    break;
+
+                default:
+                    document.write("Invalid Value");
+                    break;
+        }
+    </script>
+</body>
+</html>
